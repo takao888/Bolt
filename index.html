@@ -31,7 +31,7 @@
   ======================================================= -->
 </head>
 
-<body data-spy="scroll" data-offset="80" data-target="#thenavbar">
+<body data-spy="scroll" data-offset="80" data-target="#thenavbar" style="background-color: #f3f3f3;">
 
   <!-- Fixed navbar -->
   <div id="thenavbar" class="navbar navbar-default navbar-fixed-top">
@@ -79,9 +79,13 @@
         </div>
 
         <div class="col-lg-7 centered">
-          <h3>Profile</h3>
+          <h2>Profile</h2>
           <div class="prof">
-            
+            初めまして、私は樋口尚泰と申します。
+            <br>現在未経験からのエンジニアを目指している23歳です。
+            <br>将来的には幅広い言語を用い、さらにそれに付随するフレームワークなど自分が出来ることを一つでも多く増やしていき、
+            幅広い分野で活躍出来るエンジニアになりたいと思っています。また自分の力を会社だけでなく社会にも還元でき、
+            世の中の人たちが幸せになれる様なサービスに携わっていきたいです。
           </div>
         </div>
       </div>
@@ -89,11 +93,12 @@
   </div>
   <div id="portfolio"></div>
   <div class="container">
-    <div class="row centered mt grid" style="background-color: #dddddd; margin-left: 0px; margin-right: 0px;">
+    <div class="row centered mt grid" style="background-color: #fff; margin-left: 0px; margin-right: 0px; ">
       <h3>OUR LATEST WORK</h3>
       <div class="mt"></div>
       <div class="col-lg-4">
         <a href="https://movie-keeping.herokuapp.com/"><img src="img/リサイズ.png" alt=""></a>
+        <p><a class="no-color-change" href="https://takao888.github.io/movie_keeping/">git hub</a></p>
       </div>
       <!-- <div class="col-lg-4">
         <a href="#"><img src="img/02.jpg" alt=""></a>
@@ -132,8 +137,53 @@
     <div class="container">
       <div class="row centered">
         <h3>OUR SKILLS</h3>
-        <h4></h4>
-        <div class="col-lg-3 mt">
+          <p>
+            RubyやRubyのフレームワークRubyonRailsを主に学習しています。
+            <br>RubyonRails5速習実践ガイドといったような本で基礎を学習し
+            その後はオリジナルのアプリケーションを作成しつつ、
+            <br>不明な点が出てきた際はQiitaやterateil等のサービスを活用しています。
+          </p>
+          <table class="table-all">
+            <thead>
+              <tr>
+                <th scope="col">技術</th>
+                <th scope="col">学習内容</th>
+                <!-- <th></th> -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">HTML/CSS</th>
+                <td>『1冊で全て身につく HTML&CSSとWebデザイン』を読み、アプリ作成に生かしました。</td>
+              </tr>
+              <!-- <tr>
+                <th scope="row">JavaScript</th>
+                <td></td>
+              </tr> -->
+              <tr>
+                <th scope="row">Ruby/RubyonRails</th>
+                <td>こちらのportfolioに載せているアプリケーションはRubyonRailsを用いて作成しました。
+                  <br>学習方法についても『RubyonRails5速習実践ガイド』を活用しました、
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Git/GitHub</th>
+                <td>GitやGitHubも同様に『RubyonRails5速習実践ガイド』で学習しました。
+                  <br>今回は思うままにアプリケーションを作成したため、あまり出番はありませんでした。
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Slack</th>
+                <td>コミュケーションツールとして活用しました。</td>
+              </tr>
+              <tr>
+                <th scope="row">MySQL</th>
+                <td>RubyonRailsで作成したアプリケーションはMySQLをデータベースとして活用しました。</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        <!-- <div class="col-lg-3 mt">
           <canvas id="htmlcss" height="130" width="130"></canvas>
           <p>フロント：html/css</p>
           <br>
@@ -167,39 +217,17 @@
           <canvas id="db" height="130" width="130"></canvas>
           <p>DB:MySQL</p>
           <br>
-      </div>
+      </div> -->
       <!-- /row -->
     </div>
     <!-- /container -->
   </div>
   <!-- /skills -->
-
+</div>
   <section id="contact">
 
-    <!-- <div id="social">
-      <div class="container">
-        <div class="row centered">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="col-md-3">
-              <a href="#"><i class="fa fa-facebook"></i></a>
-            </div>
-            <div class="col-md-3">
-              <a href="#"><i class="fa fa-dribbble"></i></a>
-            </div>
-            <div class="col-md-3">
-              <a href="#"><i class="fa fa-twitter"></i></a>
-            </div>
-            <div class="col-md-3">
-              <a href="#"><i class="fa fa-envelope"></i></a>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- /container -->
-    </div>
-    <!-- /social -->
-    <div class="container">
-      <h2>Contact</h2>
+    <div class="container" style="padding-top: 20px;">
+      <h3>Contact</h3>
       <div class="row" style="margin-top: 45px;">
         <div class="col-md-8 col-md-offset-2">
           <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
@@ -240,7 +268,7 @@
   <div id="copyrights">
     <div class="container">
       <p>
-        &copy; Copyrights <strong>Bolt</strong>. All Rights Reserved
+        &copy; Copyrights <strong>Takahiro Higuchi</strong>. All Rights Reserved
       </p>
       <div class="credits">
         <!--
@@ -252,7 +280,6 @@
         Created with Bolt template by <a href="https://templatemag.com/">TemplateMag</a>
       </div>
     </div>
-  </div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

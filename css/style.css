@@ -8,7 +8,7 @@ Css
 */
 
 body {
-  background-color: #dddddd;
+  background-color: #f3f3f3;
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
@@ -29,8 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Paragraph & Typographic */
 
 p {
-  line-height: 28px;
-  margin-bottom: 25px;
+  line-height: 30px;
 }
 
 .centered {
@@ -122,8 +121,7 @@ hr {
 #hello {
   width: 100%;
   padding-top: 250px;
-  padding-bottom: 250px;
-  background-color: #dddddd;
+  background-color: #fff;
   background-image: url(../img/header.jpeg);
   background-size: cover;
   min-height: 100vh;
@@ -145,8 +143,7 @@ hr {
 
 #green {
   background-color: #ffffff;
-  padding-top: 50px;
-  margin-bottom: 0px;
+  padding-top: 15px;
 }
 
 #green h3 {
@@ -164,20 +161,17 @@ hr {
 /* Skills */
 
 #skills {
-  background-color: #4e4e4e;
+  background-color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 50px;
   height: 620px;
 }
 
-#skills h3 {
-  color: white;
-}
 
 #skills p {
-  color: white;
   font-weight: 400;
+  font-size: 16px;
 }
 
 /* Social Links */
@@ -333,14 +327,13 @@ hr {
 /* Copyrights */
 
 #copyrights {
-  background: #222222;
+  background: #fff;
   padding: 20px 0;
   text-align: center;
 }
 
 #copyrights p {
   margin-bottom: 5px;
-  color: #fff;
 }
 
 #copyrights a {
@@ -356,19 +349,57 @@ ul{
 }
 
 .prof{
-  font-size: 25px;
+  font-size: 16px;
+  margin-top: 25px;
+  text-align: left;
 }
 
-img{
-  margin-bottom: 50px;
-}
-
-.row centered mt grid{
-  background-color: #dddddd;
-}
 
 .container h2{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 35px;
   font-size: 40px;
+  font-weight: bold;
+}
+
+.container h3{
+  text-align: center;
+}
+
+a.no-color-change{
+  color: black;
+}
+
+.col-lg-5.centered{
+  margin-bottom: 35px;
+}
+
+.table-all{
+  width: 80vw;
+}
+
+th, td{
+  text-align: center;
+  line-height: 3em;
+
+}
+
+.container p{
+  padding: 10px 0px;
+}
+
+@media only screen and (max-device-width:480px){
+  #hello{
+    width: 100%;
+  }
+  #image{
+    width: 100%;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  #skill{
+    height: 800px;
+  }
+
 }
